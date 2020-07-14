@@ -1,0 +1,298 @@
+/* Default Page */
+
+@font-face {
+    font-family: Font1;
+    src: url(../font/edosz.ttf);
+}
+
+h2 {
+
+  font-family: Font1;
+  font-size: 25px !important;
+
+}
+
+body{
+  background-image: url(../img/homepagewall.png);
+  background-size: cover;
+  background-color:rgba(0,0,0,.85) !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #FFF;
+  margin:0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+button{
+  background-color: transparent;
+  border-radius:28px;
+  border:1px solid #10c18f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  width: 15%;
+  transition: 0.5s;
+}
+
+button:hover{
+
+   background-color:#10c18f;
+
+}
+
+.logmenu {
+  display: none;
+  margin-bottom: 30px;
+  margin-top: 35vh;
+
+}
+
+.btnwidth {
+
+  width: 70%;
+  margin: 10px;
+
+}
+
+#page-1, #page-2, #page-3, #page-4, #page-5, #page-6, #page-7, #page-8, #page-9, #page-10, #finish{
+  display: none;
+}
+
+#advs {
+  display: none;
+  background-color: black;
+  padding: 150px;
+  top: 0;
+  height: 70%;
+  position: absolute;
+      opacity: 1;
+   
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+
+}
+
+#advs.load {
+    opacity: 1;
+}
+
+div#hint{
+  background: black;
+  color: orangered;
+  padding: .5em;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-weight: bold;
+  transition: height 1s, width 1s, padding 1s, visibility 1s, opacity 0.5s ease-out;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+}
+
+/* Start Page */
+#start-page{
+
+  height: 100%;
+
+}
+
+#page-load {
+  display: none;
+  height: 100%;
+
+}
+
+#WAIT1 {
+
+  height: 100%;
+}
+
+#choose{
+  display: none;
+  height: 100%;
+
+}
+
+#choosest {
+
+  display: none;
+  height: 100%;
+
+}
+#start-page > h1{
+  font-size: 3.3em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#start-page > h2{
+  font-size: 1.25em;
+  font-weight: 300;
+  margin: 15px 0 20px 0;
+}
+
+/* pages */
+.page{
+  padding-top: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 1.125em;
+  font-weight: 300;
+}
+
+.right {
+
+  width: 60%;
+  float: right;
+}
+
+.left {
+
+  width: 60%;
+}
+
+.page > h1{
+  font-size: 3em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 40px 0 40px 0;
+}
+
+.charName{ 
+
+font-size: 22px;
+    margin-bottom: 70px;
+    width: 70%;
+    margin: 0px auto 70px;
+}
+
+.page input{
+  margin: 8px 0 8px 0;
+}
+
+.page input:last-child{
+  margin-bottom: 30px;
+}
+
+#finish {
+
+  height: 100%;
+
+}
+
+/* Video Overlay */
+
+.overlay {
+display: none;
+background-color:rgba(0,0,0,.65);
+height:100%;
+left:0;
+position:absolute;
+top:0;
+transition:background-color 300ms ease;
+width:100%;
+}
+
+.fade { background-color:rgba(0,0,0,.65) !important; }
+
+
+/* Hero Video + Fallback */
+
+#hero-vid {
+backface-visibility:hidden;
+background:url("http://www.markhillard.com/sandbox/media/polina.jpg") no-repeat scroll 0 0 #000;
+background-size:cover;
+bottom:-50px;
+height:auto;
+min-height:100%;
+min-width:100%;
+perspective:1000;
+position:fixed;
+right:0;
+width:auto;
+z-index:-1;
+}
+
+#hero-pic {
+display:block;
+height:auto;
+width:100%;
+}
+
+#state {
+bottom:0;
+cursor:pointer;
+font-size:2.25rem;
+left:0;
+line-height:1;
+padding:2rem 2.5rem 1.65rem;
+position:absolute;
+}
+
+
+/* Content Styles */
+
+#title {
+backface-visibility:hidden;
+left:0;
+perspective:1000;
+position:fixed;
+width:100%;
+}
+
+#title h1 {
+background-color:rgba(0,0,0,.5);
+font-family:"Poiret One", sans-serif;
+font-size:2.5rem;
+padding:1rem 1.75rem;
+}
+
+#content {
+background-color:#151515;
+padding:2.5rem;
+position:relative;
+z-index:1;
+}
+
+#content p {
+font-size:1.25rem;
+letter-spacing:.02rem;
+margin-bottom:1.3rem;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width:768px) {
+    #overlay { height:auto; }
+}
+
+
+/* Visibility Helpers */
+
+@media only screen and (min-width:769px) {
+    .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .visible-mobile,.hidden-tablet,.visible-desktop { display:none !important; }
+}
+
+@media only screen and (max-width:479px) {
+    .hidden-mobile,.visible-tablet,.visible-desktop { display:none !important; }
+}

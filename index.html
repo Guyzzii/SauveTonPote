@@ -1,0 +1,75 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sauve ton pote !</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <section class="fade" id="start-page">    
+        <img style="margin-bottom: 30px; margin-top: 35vh;" src="img/logo.png" width="300">
+        <h2>Rentrez dans la peau d’un personnage qui est victime ou témoin d’harcellement.</h2>
+        <button style="margin-top: 30px;">Jouer</button>
+        <p style=" margin-top: 20vh;">*La version du jeu qui vous est présenté est une démo, il se peut que des problèmes de compatibilité surviennent.</p>
+    </section>
+
+    <section class="fade" id="page-menu">
+
+        <img class="logmenu" src="img/logo.png" width="300">
+
+        <div id="choose">
+        <h2>CHOISIS TON PERSONNAGE</h2>
+        <button id='Vstory' style="margin-top: 30px;">L'élève</button>
+        <button id='Pstory' style="margin-top: 30px;">Le professeur</button>
+        <button id='Astory' style="margin-top: 30px;">L'ami</button>
+        </div>
+        <div id="choosest">
+        <h2>CHOISIS TON HISTOIRE</h2>
+        <button id='St1' style="margin-top: 30px;">Lena, 16 ans se retrouve en photo malgrés elle sur les réseaux sociaux.</button>
+        <button id='St2' style="margin-top: 30px;">Isack, est victime de racisme dans sont collège depui 3 mois.</button>
+        <button id='St3' style="margin-top: 30px;">Julien victime de moquerie sur ses tenues vestimentaires. </button>
+        </div>
+    </section>
+
+     <section id="questions">
+
+        <div class="overlay">
+            <video class="visible-desktop" id="hero-vid" poster="http://www.markhillard.com/sandbox/media/polina.jpg" autoplay loop muted>
+                <source id="srcvideo" type="video/mp4" src="video/vidéo_scène-1.mp4"></source>
+            </video>
+            <img id="hero-pic" class="hidden-desktop" src="http://www.markhillard.com/sandbox/media/polina.jpg" alt="">
+        </div>
+        
+
+    </section>
+
+
+    <section class="fade" id="page-load">
+
+        <div id="WAIT1">
+        <h2 style="padding-top: 50vh;">TOUT LE COLLEGE REGARDE LA PHOTO <br/> .. ..</h2>
+        </div>
+
+    </section>
+
+    <section class="fade" id="finish">
+        <h2 style="padding-top: 40vh;" >En réalité, Lena est morte, elle s’est sucidée parce qu’on ne l’a pas aidé.</h2>
+        <button><a href="jeu/index.html" style="text-decoration: none; color: white;">Comment agir ? </a></button></br>
+        <button style="margin-top: 10px;" id="rp"> Rejouer ? </button>
+    </section>
+    
+    <div id='hint'>
+        <img id="logchargement" style="margin-bottom: 30px; margin-top: 35vh;; width: 300px; padding: 10px; " src="img/logo.png">
+    </div>
+
+    <div id='advs'>
+        <h2 style="margin-top: 20vh;"> <strong>AVERTISSEMENT : Ce contenu est déconseillé aux personnes de - de 13 ans </strong></br>
+
+Si vous sentez le besoin de discuter avec quelqu’un, parlez à vos parents, à un ami, à un conseiller scolaire ou à un adulte auquel vous faites confiance. Appelez une aide par téléphone au 3030, ou allez sur sauvetonpote.com </h2>
+    </div>
+    <script type="text/javascript" src="js/quiz.js"></script>
+</body>
+</html>

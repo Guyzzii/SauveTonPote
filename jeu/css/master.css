@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'nevis';
+    src: url(../fonts/nevis.ttf);
+}
+
+#opnmunu {
+    top: 10px;
+    left: 15px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 55px;
+}
+
+#image10 {
+    top: 30px;
+    left: 1270px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 55px;
+    width: 100px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.title img{
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.titlefirst img {
+    width: 100%;
+    height: 85%;
+}
+
+.titlefirst {
+    padding: 0 !important;
+}
+
+.image {
+    position: relative;
+}
+
+
+.paragraphe {
+    position: absolute;
+}
+
+
+h1 {
+    font-family: 'nevis' !important;
+    letter-spacing: 9px;
+}
+
+.nav-link {
+    font-family: 'nevis' !important;
+}
+
+.nevis {
+    font-family: 'nevis' !important;
+}
+
+h3 {
+    font-family: 'nevis' !important;
+}
+
+hr {
+    display: block;
+}
+
+li a {
+    color: black !important;
+    font-size: 10pt;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: black;
+}
+
+.case {
+    border-right: solid 1px black;
+}
+
+.divider {
+    background-color: #10C18E;
+    color: darkblue;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 !important;
+}
+
+
+.content-gallery {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content-gallery img {
+    overflow:hidden;
+    -webkit-border-radius: 100%;
+    -moz-border-radius:50px;
+    border-radius:132px;
+    width:251px;
+    height:254px;
+}
+
+.deuxieme {
+    top: 120px;
+    left: 150px;
+    z-index: 1;
+    color: white;
+}
+
+.troisieme {
+    top: 300px;
+    left: 600px;
+    z-index: 1;
+    color: white;
+}
+
+
+.troisieme p {
+    font-size: 35px;
+}
+
+.troisieme img {
+    width: 100px;
+}
+
+footer {
+    padding: 20px;
+    color:grey !important;
+}
+
+.first img {
+    width: 100px;
+    margin-left: 179px;
+}
+
+.img-fluid {
+    max-width: 600px;
+}
+
+.image5 img {
+    padding-top: 50px;
+    margin-left: 75px;
+}
+
+.first p {
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.menu {
+    padding-top: 30px;
+}
+
+.menu ul {
+    font-size: 15px;
+}
+

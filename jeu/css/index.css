@@ -1,0 +1,26 @@
+.first {
+    color: red;
+    text-align: center;
+}
+
+#reponses {
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+input {
+    margin: 50px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo img {
+    width: 100%;
+}
